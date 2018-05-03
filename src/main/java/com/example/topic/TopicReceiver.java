@@ -6,7 +6,7 @@ import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 
 @Component
-@RabbitListener(queues = TopicRabbitConfig.message)
+@RabbitListener(queues = TopicRabbitConfig.messages)
 public class TopicReceiver {
 
     @RabbitHandler
