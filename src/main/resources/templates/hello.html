@@ -8,6 +8,7 @@
       <div class="starter-template">
         <h1>Spring MVC / Thymeleaf / Bootstrap</h1>
         <p class="lead" th:text="${greeting}">(greeting)</p>
+        <img alt="验证码" onclick = "this.src='/testDefaultKaptcha?d='+new Date()*1" src="/testDefaultKaptcha" />
         <p>The current time is <span th:text="${currentTime}">(time)</span></p>
       </div>
     </div>
