@@ -8,7 +8,28 @@
       <div class="starter-template">
         <h1>Spring MVC / Thymeleaf / Bootstrap</h1>
         <p class="lead" th:text="${greeting}">(greeting)</p>
+        <i class="far fa-user"></i>
+        <div><i class="fas fa-home fa-fw" style="background:MistyRose"></i> Home</div>
+        <div><i class="fas fa-info fa-fw" style="background:MistyRose"></i> Info</div>
+        <div><i class="fas fa-book fa-fw" style="background:MistyRose"></i> Library</div>
+        <div><i class="fas fa-pencil-alt fa-fw" style="background:MistyRose"></i> Applications</div>
+        <div><i class="fas fa-cog fa-fw" style="background:MistyRose"></i> Settings</div>
+        <div class="fa-3x">
+          <i class="fas fa-spinner fa-spin"></i>
+          <i class="fas fa-circle-notch fa-spin"></i>
+          <i class="fas fa-sync fa-spin"></i>
+          <i class="fas fa-cog fa-spin"></i>
+          <i class="fas fa-spinner fa-pulse"></i>
+        </div>
+        <div class="fa-4x">
+          <i class="fas fa-pencil-alt" data-fa-transform="shrink-10 up-.5" data-fa-mask="fas fa-comment" style="background:MistyRose"></i>
+          <i class="fab fa-facebook-f" data-fa-transform="shrink-3.5 down-1.6 right-1.25" data-fa-mask="fas fa-circle" style="background:MistyRose"></i>
+          <i class="fas fa-headphones" data-fa-transform="shrink-6" data-fa-mask="fas fa-square" style="background:MistyRose"></i>
+        </div>
         <img alt="验证码" onclick = "this.src='/testDefaultKaptcha?d='+new Date()*1" src="/testDefaultKaptcha" />
+        <div style="font-size:3em; color:Tomato">
+          <i class="fab fa-jedi-order"></i>
+        </div>
         <p>The current time is <span th:text="${currentTime}">(time)</span></p>
       </div>
     </div>
